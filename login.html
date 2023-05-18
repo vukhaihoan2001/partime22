@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form id="login-form" class="login-form">
+        <h2>Login</h2>
+        <div class="form-control">
+          <label for="username">Username</label>
+          <input type="text" id="username" placeholder="username" />
+        </div>
+        <div class="form-control">
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="password" />
+        </div>
+        <button id="login-home" type="submit" class="btn">Login</button>
+      </form>
+      <div class="social-login">
+        <p>Login with:</p>
+        <a href="#" class="social-btn facebook">
+          <i class="fab fa-facebook-f"></i> Facebook
+        </a>
+        <a href="#" class="social-btn gmail">
+          <i class="fab fa-google"></i> Gmail
+        </a>
+        <a href="#" class="social-btn amazon">
+          <i class="fab fa-amazon"></i> Amazon
+        </a>
+      </div>
+      <p>Don't have an account? <a href="register.html">Register here</a></p>
+    </div>
+    <script src="login.js"></script>
+  </body>
+</html>
